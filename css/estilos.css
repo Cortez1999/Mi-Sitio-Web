@@ -1,0 +1,159 @@
+/* Estilos generales */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #004a8f;
+    background-color: #e9f2fa;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #004a8f;
+    margin-top: 25px;
+}
+
+/* Estilos para la página de inicio (index.html) */
+.encabezado-inicio {
+    text-align: center;
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.contenido-inicio {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #004a8f;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 6px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #003366;
+    border-radius: 6px;
+}
+
+/* Tabla de servicios */
+table {
+    width: 70%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #004a8f;
+    color: white;
+}
+
+/* Formulario de contacto */
+form {
+    background-color: #ffffff;
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* REGLA CLAVE DE LA TAREA: Alinear y centrar botones horizontalmente */
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background-color: #0077b6;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #005f8a;
+}
+
+input[type="reset"],
+button[type="reset"] {
+    background-color: #6c757d;
+}
+
+input[type="reset"]:hover,
+button[type="reset"]:hover {
+    background-color: #545b62;
+}
